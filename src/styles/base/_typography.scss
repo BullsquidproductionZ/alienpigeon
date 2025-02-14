@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+body {
+    font-family: $ff-primary;
+}
+
+p, span {
+    font-family: $ff-secondary;
+}
