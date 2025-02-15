@@ -1,4 +1,29 @@
+@use '../abstracts' as *;
+
+body {
+    color: $clr-light-blue;
+    background-color: $clr-dark-bg;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img {
     width: 100%;
     height: auto;
+}
+
+main {
+    width: 70%;
+}
+
+h1 {
+    color: $clr-bright-blue;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
 }

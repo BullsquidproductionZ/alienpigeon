@@ -1,0 +1,19 @@
+@use '../abstracts' as *;
+
+.hero {
+    margin: 1.8rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__header {
+        padding-bottom: 1.2rem;
+    }
+
+    &__subhead {
+        text-align: center;
+        font-size: 1.3rem;
+        padding-bottom: .8rem;
+    }
+}
