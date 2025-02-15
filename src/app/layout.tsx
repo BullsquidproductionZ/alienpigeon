@@ -2,6 +2,7 @@ import { Press_Start_2P, Roboto_Mono } from 'next/font/google';
 import type { Metadata } from "next";
 import '@/styles/main.scss';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const pressStart2P = Press_Start_2P({
     subsets: ['latin'],
@@ -38,6 +39,7 @@ export default function RootLayout({
             <body className={`${pressStart2P.variable} ${robotoMono.variable}`}>
                 {<Header />}
                 {children}
+                {<Footer />}
             </body>
         </html>
     );

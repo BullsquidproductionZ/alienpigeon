@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.footer {
+    padding: 2.5rem 0;
+
+    &__link {
+        cursor: pointer;
+        text-decoration: none;
+        color: $clr-bright-blue;
+    }
+}
