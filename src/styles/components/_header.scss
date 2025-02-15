@@ -1,0 +1,23 @@
+@use '../abstracts' as *;
+
+.header {
+    width: 70%;
+    padding: 1.3rem 0;
+
+    &__logo {
+        cursor: pointer;
+        text-decoration: none;
+        color: $clr-light-blue;
+        font-family: $ff-primary;
+        font-weight: $fw-bold;
+        font-size: 1.5rem;
+        padding: .8rem;
+        text-shadow: $clr-bright-blue 1px 1px 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__logo {
+        font-size: 1.2rem;
+    }
+}
