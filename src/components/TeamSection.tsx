@@ -16,7 +16,7 @@ export default function TeamSection() {
                                 Main developer
                             </p>
                             <p className="member-card__bio">
-                                Responsible for the game's programming, art, music, and sound design
+                                {'Responsible for the game\'s programming, art, music, and sound design'}
                             </p>
                         </div>
                     </article>
