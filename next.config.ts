@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
     reactStrictMode: true,
     images: {
         unoptimized: true,
-    }
+    },
+    basePath: '/alienpigeon',
 };
 
 export default nextConfig;
