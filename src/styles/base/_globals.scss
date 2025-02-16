@@ -22,6 +22,12 @@ h1 {
     color: $clr-bright-blue;
 }
 
+h2 {
+    color: $clr-bright-blue;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
     main {
         width: 90%;

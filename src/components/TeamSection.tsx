@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function TeamSection() {
     return (
         <section className="team">
-            <h2 className="team__heading">Team</h2>
+            <h2>Team</h2>
             <ul className="team__members-list" role="list" aria-label="Team members">
                 <li>
                     <article className="member-card">

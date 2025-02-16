@@ -5,7 +5,7 @@ import ButtonLink from './ButtonLink';
 export default function GamesSection() {
     return (
         <section className='games'>
-            <h2 className="games__heading">Games</h2>
+            <h2>Games</h2>
 
             <div className="games__container">
                 <Image src={demeterDefendersImg} alt='Game image' className='games__image'/>
