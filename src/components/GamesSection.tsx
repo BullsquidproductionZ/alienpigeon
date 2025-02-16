@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import demeterDefendersImg from '@/assets/demeter-defenders-preview.jpeg';
 import ButtonLink from './ButtonLink';
 
 export default function GamesSection() {
@@ -8,7 +6,11 @@ export default function GamesSection() {
             <h2>Games</h2>
 
             <div className="games__container">
-                <Image src={demeterDefendersImg} alt='Game image' className='games__image'/>
+                <img
+                    src="https://img.itch.zone/aW1nLzE5MzUyNjY0LnBuZw==/315x250%23c/hetoAu.png"
+                    alt="Game image"
+                    className="games__image"
+                />
                 <div className="games__text-content">
                     <h3 className='games__title'>Demeter Defenders</h3>
                     <p className='games__description'>

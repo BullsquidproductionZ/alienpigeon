@@ -1,7 +1,3 @@
-import bullsquidPic from '@/assets/bullsquid-pic.jpg';
-import notwendyPic from '@/assets/notwendy-pic.jpg';
-import Image from 'next/image';
-
 export default function TeamSection() {
     return (
         <section className="team">
@@ -9,7 +5,11 @@ export default function TeamSection() {
             <ul className="team__members-list" role="list" aria-label="Team members">
                 <li>
                     <article className="member-card">
-                        <Image src={bullsquidPic} alt="Bullsquid profile picture" className="member-card__image" />
+                        <img
+                            src="https://avatars.fastly.steamstatic.com/37d4e9cc994ccf91c96da752a7dd5fe67875d465_full.jpg"
+                            alt="Bullsquid profile picture"
+                            className="member-card__image"
+                        />
                         <div className="member-card__content">
                             <span className="member-card__name">bullsquid</span>
                             <p className="member-card__bio">
@@ -23,7 +23,11 @@ export default function TeamSection() {
                 </li>
                 <li>
                     <article className="member-card">
-                        <Image src={notwendyPic} alt="NotWendy profile picture" className="member-card__image" />
+                        <img
+                            src="https://avatars.fastly.steamstatic.com/650ed19c1614fc1ab4e790096c74185697956b77_full.jpg"
+                            alt="Notwendy profile picture"
+                            className="member-card__image"
+                        />
                         <div className="member-card__content">
                             <span className="member-card__name">NotWendy</span>
                             <p className="member-card__bio">
